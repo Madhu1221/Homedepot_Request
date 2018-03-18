@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B117DC4E205CCC4600C1AAE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B117DC4D205CCC4600C1AAE3 /* AppDelegate.swift */; };
+		B117DC50205CCC4600C1AAE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B117DC4F205CCC4600C1AAE3 /* ViewController.swift */; };
+		B117DC53205CCC4600C1AAE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B117DC51205CCC4600C1AAE3 /* Main.storyboard */; };
+		B117DC55205CCC4600C1AAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B117DC54205CCC4600C1AAE3 /* Assets.xcassets */; };
+		B117DC58205CCC4600C1AAE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B117DC56205CCC4600C1AAE3 /* LaunchScreen.storyboard */; };
+		B117DC63205CCC4600C1AAE3 /* HomeDepotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B117DC62205CCC4600C1AAE3 /* HomeDepotTests.swift */; };
+		B117DC6E205CCC4600C1AAE3 /* HomeDepotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B117DC6D205CCC4600C1AAE3 /* HomeDepotUITests.swift */; };
+		B117DC7C205CDC1B00C1AAE3 /* WebserviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B117DC7B205CDC1A00C1AAE3 /* WebserviceManager.swift */; };
+		B117DC7E205CE15D00C1AAE3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B117DC7D205CE15D00C1AAE3 /* DataModel.swift */; };
+		B117DC80205CEBD000C1AAE3 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B117DC7F205CEBD000C1AAE3 /* DataTableViewCell.swift */; };
+		B1BE77DB205D97D4000B002D /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BE77DA205D97D4000B002D /* DataCollectionViewCell.swift */; };
+		B1BE77DD205DBA80000B002D /* DataFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BE77DC205DBA80000B002D /* DataFlowLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B117DC5F205CCC4600C1AAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B117DC42205CCC4500C1AAE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B117DC49205CCC4500C1AAE3;
+			remoteInfo = HomeDepot;
+		};
+		B117DC6A205CCC4600C1AAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B117DC42205CCC4500C1AAE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B117DC49205CCC4500C1AAE3;
+			remoteInfo = HomeDepot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B117DC4A205CCC4500C1AAE3 /* HomeDepot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeDepot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B117DC4D205CCC4600C1AAE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B117DC4F205CCC4600C1AAE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B117DC52205CCC4600C1AAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B117DC54205CCC4600C1AAE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B117DC57205CCC4600C1AAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B117DC59205CCC4600C1AAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B117DC5E205CCC4600C1AAE3 /* HomeDepotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDepotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B117DC62205CCC4600C1AAE3 /* HomeDepotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDepotTests.swift; sourceTree = "<group>"; };
+		B117DC64205CCC4600C1AAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B117DC69205CCC4600C1AAE3 /* HomeDepotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDepotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B117DC6D205CCC4600C1AAE3 /* HomeDepotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDepotUITests.swift; sourceTree = "<group>"; };
+		B117DC6F205CCC4600C1AAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B117DC7B205CDC1A00C1AAE3 /* WebserviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebserviceManager.swift; sourceTree = "<group>"; };
+		B117DC7D205CE15D00C1AAE3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		B117DC7F205CEBD000C1AAE3 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		B1BE77DA205D97D4000B002D /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		B1BE77DC205DBA80000B002D /* DataFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFlowLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B117DC47205CCC4500C1AAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B117DC5B205CCC4600C1AAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B117DC66205CCC4600C1AAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B117DC41205CCC4500C1AAE3 = {
+			isa = PBXGroup;
+			children = (
+				B117DC4C205CCC4600C1AAE3 /* HomeDepot */,
+				B117DC61205CCC4600C1AAE3 /* HomeDepotTests */,
+				B117DC6C205CCC4600C1AAE3 /* HomeDepotUITests */,
+				B117DC4B205CCC4500C1AAE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B117DC4B205CCC4500C1AAE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B117DC4A205CCC4500C1AAE3 /* HomeDepot.app */,
+				B117DC5E205CCC4600C1AAE3 /* HomeDepotTests.xctest */,
+				B117DC69205CCC4600C1AAE3 /* HomeDepotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B117DC4C205CCC4600C1AAE3 /* HomeDepot */ = {
+			isa = PBXGroup;
+			children = (
+				B117DC4D205CCC4600C1AAE3 /* AppDelegate.swift */,
+				B117DC4F205CCC4600C1AAE3 /* ViewController.swift */,
+				B117DC51205CCC4600C1AAE3 /* Main.storyboard */,
+				B117DC54205CCC4600C1AAE3 /* Assets.xcassets */,
+				B117DC56205CCC4600C1AAE3 /* LaunchScreen.storyboard */,
+				B117DC59205CCC4600C1AAE3 /* Info.plist */,
+				B117DC7B205CDC1A00C1AAE3 /* WebserviceManager.swift */,
+				B117DC7D205CE15D00C1AAE3 /* DataModel.swift */,
+				B117DC7F205CEBD000C1AAE3 /* DataTableViewCell.swift */,
+				B1BE77DA205D97D4000B002D /* DataCollectionViewCell.swift */,
+				B1BE77DC205DBA80000B002D /* DataFlowLayout.swift */,
+			);
+			path = HomeDepot;
+			sourceTree = "<group>";
+		};
+		B117DC61205CCC4600C1AAE3 /* HomeDepotTests */ = {
+			isa = PBXGroup;
+			children = (
+				B117DC62205CCC4600C1AAE3 /* HomeDepotTests.swift */,
+				B117DC64205CCC4600C1AAE3 /* Info.plist */,
+			);
+			path = HomeDepotTests;
+			sourceTree = "<group>";
+		};
+		B117DC6C205CCC4600C1AAE3 /* HomeDepotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B117DC6D205CCC4600C1AAE3 /* HomeDepotUITests.swift */,
+				B117DC6F205CCC4600C1AAE3 /* Info.plist */,
+			);
+			path = HomeDepotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B117DC49205CCC4500C1AAE3 /* HomeDepot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B117DC72205CCC4600C1AAE3 /* Build configuration list for PBXNativeTarget "HomeDepot" */;
+			buildPhases = (
+				B117DC46205CCC4500C1AAE3 /* Sources */,
+				B117DC47205CCC4500C1AAE3 /* Frameworks */,
+				B117DC48205CCC4500C1AAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeDepot;
+			productName = HomeDepot;
+			productReference = B117DC4A205CCC4500C1AAE3 /* HomeDepot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B117DC5D205CCC4600C1AAE3 /* HomeDepotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B117DC75205CCC4600C1AAE3 /* Build configuration list for PBXNativeTarget "HomeDepotTests" */;
+			buildPhases = (
+				B117DC5A205CCC4600C1AAE3 /* Sources */,
+				B117DC5B205CCC4600C1AAE3 /* Frameworks */,
+				B117DC5C205CCC4600C1AAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B117DC60205CCC4600C1AAE3 /* PBXTargetDependency */,
+			);
+			name = HomeDepotTests;
+			productName = HomeDepotTests;
+			productReference = B117DC5E205CCC4600C1AAE3 /* HomeDepotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B117DC68205CCC4600C1AAE3 /* HomeDepotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B117DC78205CCC4600C1AAE3 /* Build configuration list for PBXNativeTarget "HomeDepotUITests" */;
+			buildPhases = (
+				B117DC65205CCC4600C1AAE3 /* Sources */,
+				B117DC66205CCC4600C1AAE3 /* Frameworks */,
+				B117DC67205CCC4600C1AAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B117DC6B205CCC4600C1AAE3 /* PBXTargetDependency */,
+			);
+			name = HomeDepotUITests;
+			productName = HomeDepotUITests;
+			productReference = B117DC69205CCC4600C1AAE3 /* HomeDepotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B117DC42205CCC4500C1AAE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Madhu;
+				TargetAttributes = {
+					B117DC49205CCC4500C1AAE3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B117DC5D205CCC4600C1AAE3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B117DC49205CCC4500C1AAE3;
+					};
+					B117DC68205CCC4600C1AAE3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B117DC49205CCC4500C1AAE3;
+					};
+				};
+			};
+			buildConfigurationList = B117DC45205CCC4500C1AAE3 /* Build configuration list for PBXProject "HomeDepot" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B117DC41205CCC4500C1AAE3;
+			productRefGroup = B117DC4B205CCC4500C1AAE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B117DC49205CCC4500C1AAE3 /* HomeDepot */,
+				B117DC5D205CCC4600C1AAE3 /* HomeDepotTests */,
+				B117DC68205CCC4600C1AAE3 /* HomeDepotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B117DC48205CCC4500C1AAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B117DC58205CCC4600C1AAE3 /* LaunchScreen.storyboard in Resources */,
+				B117DC55205CCC4600C1AAE3 /* Assets.xcassets in Resources */,
+				B117DC53205CCC4600C1AAE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B117DC5C205CCC4600C1AAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B117DC67205CCC4600C1AAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B117DC46205CCC4500C1AAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B117DC50205CCC4600C1AAE3 /* ViewController.swift in Sources */,
+				B117DC7E205CE15D00C1AAE3 /* DataModel.swift in Sources */,
+				B117DC80205CEBD000C1AAE3 /* DataTableViewCell.swift in Sources */,
+				B1BE77DD205DBA80000B002D /* DataFlowLayout.swift in Sources */,
+				B117DC4E205CCC4600C1AAE3 /* AppDelegate.swift in Sources */,
+				B1BE77DB205D97D4000B002D /* DataCollectionViewCell.swift in Sources */,
+				B117DC7C205CDC1B00C1AAE3 /* WebserviceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B117DC5A205CCC4600C1AAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B117DC63205CCC4600C1AAE3 /* HomeDepotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B117DC65205CCC4600C1AAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B117DC6E205CCC4600C1AAE3 /* HomeDepotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B117DC60205CCC4600C1AAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B117DC49205CCC4500C1AAE3 /* HomeDepot */;
+			targetProxy = B117DC5F205CCC4600C1AAE3 /* PBXContainerItemProxy */;
+		};
+		B117DC6B205CCC4600C1AAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B117DC49205CCC4500C1AAE3 /* HomeDepot */;
+			targetProxy = B117DC6A205CCC4600C1AAE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B117DC51205CCC4600C1AAE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B117DC52205CCC4600C1AAE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B117DC56205CCC4600C1AAE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B117DC57205CCC4600C1AAE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B117DC70205CCC4600C1AAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B117DC71205CCC4600C1AAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B117DC73205CCC4600C1AAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.HomeDepot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B117DC74205CCC4600C1AAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.HomeDepot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B117DC76205CCC4600C1AAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.HomeDepotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDepot.app/HomeDepot";
+			};
+			name = Debug;
+		};
+		B117DC77205CCC4600C1AAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.HomeDepotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDepot.app/HomeDepot";
+			};
+			name = Release;
+		};
+		B117DC79205CCC4600C1AAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.HomeDepotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeDepot;
+			};
+			name = Debug;
+		};
+		B117DC7A205CCC4600C1AAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeDepotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citi.HomeDepotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeDepot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B117DC45205CCC4500C1AAE3 /* Build configuration list for PBXProject "HomeDepot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B117DC70205CCC4600C1AAE3 /* Debug */,
+				B117DC71205CCC4600C1AAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B117DC72205CCC4600C1AAE3 /* Build configuration list for PBXNativeTarget "HomeDepot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B117DC73205CCC4600C1AAE3 /* Debug */,
+				B117DC74205CCC4600C1AAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B117DC75205CCC4600C1AAE3 /* Build configuration list for PBXNativeTarget "HomeDepotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B117DC76205CCC4600C1AAE3 /* Debug */,
+				B117DC77205CCC4600C1AAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B117DC78205CCC4600C1AAE3 /* Build configuration list for PBXNativeTarget "HomeDepotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B117DC79205CCC4600C1AAE3 /* Debug */,
+				B117DC7A205CCC4600C1AAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B117DC42205CCC4500C1AAE3 /* Project object */;
+}
